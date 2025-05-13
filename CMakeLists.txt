@@ -1,6 +1,6 @@
-project(terraphast C CXX)
+cmake_minimum_required(VERSION 3.0.2...3.20)
 
-cmake_minimum_required(VERSION 3.0.2)
+project(terraphast C CXX)
 cmake_policy(SET CMP0054 NEW)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 
